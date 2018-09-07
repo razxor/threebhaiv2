@@ -1,0 +1,10 @@
+{
+  "name": "unite",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.8.4",
+    "mongodb": "^1.4.8",
+    "socket.io": "latest"
+  }
+}
