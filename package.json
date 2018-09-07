@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "^4.8.4",
+    "express": "^4.16.3",
     "mongodb": "^1.4.8",
-    "socket.io": "latest"
+    "socket.io": "^2.1.1"
   }
 }
