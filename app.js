@@ -18,9 +18,9 @@ var server = require('http').Server(app);
 var io = require('socket.io').listen(server);
 
 //server.listen(3334);
-server.listen(8888, function (err) { //'listening' listener
+server.listen(process.env.PORT || 3000, function (err) { //'listening' listener
     if (!err) {
-        console.log('server is connected on port 8888.');
+        console.log('server is connected on port '+process.env.PORT);
     } else {
         console.log(err)
     }
